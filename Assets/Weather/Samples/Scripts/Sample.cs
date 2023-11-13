@@ -13,9 +13,9 @@ namespace Weather
     {
         [SerializeField] Text _locationText = null!;
         [SerializeField] Text[] _dateTexts = null!;
-        [SerializeField] SpriteRenderer[] spriteRenderers = null!;
+        [SerializeField] SpriteRenderer[] _spriteRenderers = null!;
         [SerializeField] Text _bodyText = null!;
-        [SerializeField] Text _CopyrightText = null!;
+        [SerializeField] Text _copyrightText = null!;
         [SerializeField] Dropdown _ddArea = null!;
         [SerializeField] Dropdown _ddCity = null!;
 
@@ -80,7 +80,7 @@ namespace Weather
                 using var request = UnityWebRequest.Get(forecast.Image.Url);
                 yield return request.SendWebRequest();
 
-                var renderer = spriteRenderers[index++];
+                var renderer = _spriteRenderers[index++];
                 if (request.result != UnityWebRequest.Result.Success)
                 {
                     if (renderer.sprite != null)
@@ -113,7 +113,7 @@ namespace Weather
             }
 
             _bodyText.text = data.Description.BodyText;
-            _CopyrightText.text = data.Copyright.Title;
+            _copyrightText.text = data.Copyright.Title;
         }
 
         public void OnClickSend()

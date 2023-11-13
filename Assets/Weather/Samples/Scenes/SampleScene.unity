@@ -311,12 +311,12 @@ MonoBehaviour:
   - {fileID: 612381767}
   - {fileID: 567570198}
   - {fileID: 1216557507}
-  spriteRenderers:
+  _spriteRenderers:
   - {fileID: 1828100859}
   - {fileID: 1140353252}
   - {fileID: 1445234552}
   _bodyText: {fileID: 507854163}
-  _CopyrightText: {fileID: 1747630623}
+  _copyrightText: {fileID: 1747630623}
   _ddArea: {fileID: 2019795231}
   _ddCity: {fileID: 1857131582}
 --- !u!4 &88991616
