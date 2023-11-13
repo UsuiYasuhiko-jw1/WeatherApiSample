@@ -1,0 +1,16 @@
+{
+    "name": "Weatther.Runtime.Scripts",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0c02b3bd2c2c24e99a7d9c5792444fe4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

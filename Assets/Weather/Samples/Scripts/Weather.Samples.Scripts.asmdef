@@ -1,0 +1,17 @@
+{
+    "name": "Weather.Samples.Scripts",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9c4e702d3dfbc4f72bda0f43f92ebbbd",
+        "GUID:68550284b645f4b9894995579f34290a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
